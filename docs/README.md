@@ -5,7 +5,7 @@ Documentación de análisis y diseño del sistema, en formato PlantUML + Markdow
 
 ## Problemas que resuelve el sistema
 
-1. **Cobros automáticos sin control del usuario**: en plataformas como las de SmartFit el cobro es automático y el usuario no puede cancelar ni gestionar su plan desde la web. Este sistema permite cancelar la suscripción, activar/desactivar la renovación automática y ver el historial de pagos en línea, con recordatorio previo a cada cobro.
+1. **Cobros automáticos sin control del usuario**: en plataformas actuales tomando como ejemplo el smart fit el cobro es automático y el usuario no puede cancelar ni gestionar su plan desde la web. Este sistema permite cancelar la suscripción, activar/desactivar la renovación automática y ver el historial de pagos en línea, con recordatorio previo a cada cobro.
 2. **Saturación horaria**: el sistema mide el aforo en tiempo real (a partir de los check-in) y publica un mapa de calor de afluencia por día y hora, para que el cliente elija las franjas menos concurridas.
 3. **Colas y esperas**: cola virtual que permite reservar turno de ingreso cuando el aforo está lleno, ver la posición y estimación de espera, y recibir aviso cuando sea el turno.
 
